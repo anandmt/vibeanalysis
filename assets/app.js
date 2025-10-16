@@ -111,6 +111,7 @@ async function main() {
   const webMean = mean(webRevs);
   const mobileMean = mean(mobileRevs);
   const { diff, lo, hi } = bootstrapCI(webRevs, mobileRevs, 2000);
+  const channelShare = toShareMap(groupSum(orders, o => o.channel, o => o.revenue));
 
   // Payment shares
   const payShares = toShareMap(groupSum(orders, o => o.payment_method, o => o.revenue));
@@ -138,6 +139,17 @@ async function main() {
   document.getElementById('kpi-repeat-rev').textContent = fmtPct(repeatRevShare);
   document.getElementById('kpi-weekend').textContent = fmtPct(weekendRev / (totalRev||1));
   document.getElementById('kpi-evening').textContent = fmtPct(eveningRev / (totalRev||1));
+  const chWeb = fmtPct(channelShare.get('Web') || 0);
+  const chMobile = fmtPct(channelShare.get('Mobile') || 0);
+  document.getElementById('kpi-channel-share').textContent = `${chWeb} / ${chMobile}`;
+
+  // Top months and categories lists (compact)
+  const topMonths = Array.from(monthRev.entries()).sort((a,b)=>b[1]-a[1]).slice(0,3)
+    .map(([m,v]) => `${m}: ${fmtPct(v/(totalRev||1))}`).join(' • ');
+  document.getElementById('kpi-top-months').textContent = topMonths;
+  const catOverallShare = Array.from(toShareMap(catOverall).entries()).sort((a,b)=>b[1]-a[1]).slice(0,3)
+    .map(([c,s]) => `${c}: ${fmtPct(s)}`).join(' • ');
+  document.getElementById('kpi-top-cats').textContent = catOverallShare;
 
   // Chart helpers
   const palette = [ '#58a6ff', '#f78166', '#8b949e', '#d2a8ff', '#79c0ff', '#ffa657', '#56d364', '#f2cc60' ];
@@ -220,4 +232,3 @@ main().catch(err => {
   console.error(err);
   alert('Failed to load dashboard data. Ensure data/*.csv are present.');
 });
-

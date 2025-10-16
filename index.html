@@ -17,48 +17,51 @@
   </header>
 
   <section id="kpis" class="grid">
-    <div class="card"><h3>Total Revenue</h3><div class="value" id="kpi-total-rev">—</div></div>
-    <div class="card"><h3>Average Order Value</h3><div class="value" id="kpi-aov">—</div></div>
-    <div class="card"><h3>Repeat Rate (buyers)</h3><div class="value" id="kpi-repeat-rate">—</div><div class="note" id="kpi-repeat-note"></div></div>
-    <div class="card"><h3>Repeat Rev Share</h3><div class="value" id="kpi-repeat-rev">—</div></div>
-    <div class="card"><h3>Weekend Rev Share</h3><div class="value" id="kpi-weekend">—</div></div>
-    <div class="card"><h3>Evening Rev Share (18–22)</h3><div class="value" id="kpi-evening">—</div></div>
+    <div class="card small"><h3>Total Revenue</h3><div class="value" id="kpi-total-rev">—</div></div>
+    <div class="card small"><h3>Average Order Value</h3><div class="value" id="kpi-aov">—</div></div>
+    <div class="card small"><h3>Repeat Rate (buyers)</h3><div class="value" id="kpi-repeat-rate">—</div><div class="note" id="kpi-repeat-note"></div></div>
+    <div class="card small"><h3>Repeat Rev Share</h3><div class="value" id="kpi-repeat-rev">—</div></div>
+    <div class="card small"><h3>Weekend Rev Share</h3><div class="value" id="kpi-weekend">—</div></div>
+    <div class="card small"><h3>Evening Rev Share (18–22)</h3><div class="value" id="kpi-evening">—</div></div>
+    <div class="card small"><h3>Channel Share</h3><div class="value" id="kpi-channel-share">—</div><div class="note">Web vs Mobile</div></div>
+    <div class="card small"><h3>Top Months</h3><div class="list" id="kpi-top-months">—</div></div>
+    <div class="card small"><h3>Top Categories</h3><div class="list" id="kpi-top-cats">—</div></div>
   </section>
 
-  <section class="charts">
+  <section class="charts grid">
     <div class="panel">
       <h2>Monthly Revenue</h2>
-      <canvas id="chart-month"></canvas>
+      <canvas id="chart-month" height="170"></canvas>
     </div>
     <div class="panel">
       <h2>Category Mix (Overall vs Holidays vs Summer)</h2>
-      <canvas id="chart-category"></canvas>
+      <canvas id="chart-category" height="170"></canvas>
     </div>
     <div class="panel">
       <h2>Pareto: Revenue by Customer Percentile</h2>
-      <canvas id="chart-pareto"></canvas>
+      <canvas id="chart-pareto" height="170"></canvas>
     </div>
     <div class="panel">
       <h2>Channel AOV (95% CI)</h2>
-      <canvas id="chart-channel-aov"></canvas>
+      <canvas id="chart-channel-aov" height="170"></canvas>
       <p class="note" id="note-channel-aov"></p>
     </div>
     <div class="panel">
       <h2>Payment Method Revenue Share</h2>
-      <canvas id="chart-payments"></canvas>
+      <canvas id="chart-payments" height="170"></canvas>
     </div>
     <div class="panel">
       <h2>Geography: Revenue by Country</h2>
-      <canvas id="chart-geo"></canvas>
+      <canvas id="chart-geo" height="170"></canvas>
     </div>
     <div class="panel">
       <h2>Promotions: BF/Cyber vs Non‑BF</h2>
-      <div class="grid">
-        <div class="card small"><h3>BF Rev Share</h3><div class="value" id="bf-rev-share">—</div></div>
-        <div class="card small"><h3>BF Discount Rate</h3><div class="value" id="bf-disc-rate">—</div></div>
-        <div class="card small"><h3>BF Avg Discount (disc. orders)</h3><div class="value" id="bf-avg-disc">—</div></div>
-        <div class="card small"><h3>Non‑BF Discount Rate</h3><div class="value" id="nonbf-disc-rate">—</div></div>
-        <div class="card small"><h3>Non‑BF Avg Discount (disc. orders)</h3><div class="value" id="nonbf-avg-disc">—</div></div>
+      <div class="grid tight">
+        <div class="card tiny"><h3>BF Rev Share</h3><div class="value" id="bf-rev-share">—</div></div>
+        <div class="card tiny"><h3>BF Discount Rate</h3><div class="value" id="bf-disc-rate">—</div></div>
+        <div class="card tiny"><h3>BF Avg Discount</h3><div class="value" id="bf-avg-disc">—</div><div class="note">discounted orders</div></div>
+        <div class="card tiny"><h3>Non‑BF Discount Rate</h3><div class="value" id="nonbf-disc-rate">—</div></div>
+        <div class="card tiny"><h3>Non‑BF Avg Discount</h3><div class="value" id="nonbf-avg-disc">—</div><div class="note">discounted orders</div></div>
       </div>
     </div>
   </section>
@@ -70,4 +73,3 @@
   <script src="assets/app.js"></script>
 </body>
 </html>
-
