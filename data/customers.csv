@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,signup_date,city,state,country,segment,activity_score,total_orders,total_spent
+C0001,Morgan,Smith,morgan.smith4507@mail.com,2023-11-04,San Diego,CA,USA,New,1.1739,2,211.56
+C0002,Taylor,Miller,taylor.miller3812@example.com,2023-10-18,Paris,,France,New,1.104,1,160.8
+C0003,Reese,Rodriguez,reese.rodriguez107@mail.com,2023-10-22,Manchester,,UK,VIP,3.262,4,1341.01
+C0004,Taylor,Gonzalez,taylor.gonzalez1585@inbox.com,2023-11-04,Vancouver,BC,Canada,Returning,2.3392,1,256.58
+C0005,Quinn,Williams,quinn.williams9045@inbox.com,2023-10-28,Vancouver,BC,Canada,New,0.3645,0,0.0
+C0006,Cameron,Williams,cameron.williams3815@example.com,2023-10-19,London,,UK,New,0.692,1,248.1
+C0007,Avery,Rodriguez,avery.rodriguez1170@mail.com,2023-10-28,Paris,,France,Returning,1.7196,3,383.09
+C0008,Drew,Johnson,drew.johnson3753@example.com,2023-10-23,Toronto,ON,Canada,VIP,5.1423,7,2709.48
+C0009,Drew,Miller,drew.miller8180@shopper.net,2023-10-20,Sydney,NSW,Australia,Returning,2.4884,0,0.0
+C0010,Reese,Wilson,reese.wilson9561@shopper.net,2023-10-24,Vancouver,BC,Canada,Returning,2.8621,2,498.54
+C0011,Rowan,Martin,rowan.martin1041@shopper.net,2023-10-27,London,,UK,New,0.385,2,399.17
+C0012,Alex,Brown,alex.brown8798@inbox.com,2023-10-19,Toronto,ON,Canada,New,0.1793,0,0.0
+C0013,Jamie,Taylor,jamie.taylor2928@example.com,2023-11-10,San Jose,CA,USA,New,0.4382,3,323.65
+C0014,Riley,Moore,riley.moore8690@example.com,2023-10-24,Toronto,ON,Canada,Returning,1.9977,3,1687.49
+C0015,Skyler,Jackson,skyler.jackson1291@example.com,2023-10-24,Melbourne,VIC,Australia,New,0.2963,0,0.0
+C0016,Sage,Wilson,sage.wilson3471@mail.com,2023-10-21,San Jose,CA,USA,New,0.115,0,0.0
+C0017,Harper,Brown,harper.brown4062@mail.com,2023-10-20,Chicago,IL,USA,New,0.5523,0,0.0
+C0018,Taylor,Johnson,taylor.johnson3751@example.com,2023-10-18,Los Angeles,CA,USA,New,0.5684,0,0.0
+C0019,Reese,Jackson,reese.jackson7745@mail.com,2023-10-31,Melbourne,VIC,Australia,New,0.2966,0,0.0
+C0020,Rowan,Wilson,rowan.wilson7652@example.com,2023-10-30,Houston,TX,USA,New,0.3195,0,0.0
+C0021,Casey,Wilson,casey.wilson3007@inbox.com,2023-10-20,Sydney,NSW,Australia,New,1.0952,1,112.73
+C0022,Emerson,Smith,emerson.smith1529@mail.com,2023-10-22,Philadelphia,PA,USA,New,0.0774,0,0.0
+C0023,Harper,Martinez,harper.martinez6931@shopper.net,2023-10-20,Phoenix,AZ,USA,New,0.3338,0,0.0
+C0024,Jordan,Jackson,jordan.jackson7812@mail.com,2023-10-18,Los Angeles,CA,USA,New,1.4815,3,328.39
+C0025,Morgan,Jackson,morgan.jackson4034@example.com,2023-10-22,Chicago,IL,USA,Returning,1.8196,2,434.29
+C0026,Avery,Hernandez,avery.hernandez3911@inbox.com,2023-10-18,London,,UK,New,0.3556,0,0.0
+C0027,Taylor,Smith,taylor.smith7509@example.com,2023-10-25,Chicago,IL,USA,New,0.3796,1,208.36
+C0028,Taylor,Davis,taylor.davis6055@inbox.com,2023-10-22,Philadelphia,PA,USA,VIP,3.06,4,1095.24
+C0029,Emerson,Martinez,emerson.martinez1698@mail.com,2023-10-25,Dallas,TX,USA,Returning,1.8905,2,434.38
+C0030,Avery,Rodriguez,avery.rodriguez8281@shopper.net,2023-10-19,Dallas,TX,USA,VIP,3.6028,6,2004.73
+C0031,Jamie,Garcia,jamie.garcia7240@shopper.net,2023-10-28,Paris,,France,New,1.1808,0,0.0
+C0032,Casey,Johnson,casey.johnson5051@inbox.com,2023-11-03,Los Angeles,CA,USA,New,0.6195,0,0.0
+C0033,Emerson,Wilson,emerson.wilson2533@mail.com,2023-10-30,Philadelphia,PA,USA,New,0.1524,0,0.0
+C0034,Morgan,Gonzalez,morgan.gonzalez635@shopper.net,2023-10-18,San Diego,CA,USA,Returning,2.27,4,752.52
+C0035,Avery,Gonzalez,avery.gonzalez5379@inbox.com,2023-11-08,Chicago,IL,USA,New,1.4983,2,304.32
+C0036,Emerson,Hernandez,emerson.hernandez453@example.com,2023-10-21,Dallas,TX,USA,New,0.6613,0,0.0
+C0037,Drew,Wilson,drew.wilson9933@example.com,2023-11-03,London,,UK,New,0.2501,0,0.0
+C0038,Charlie,Moore,charlie.moore3229@inbox.com,2023-10-21,Manchester,,UK,VIP,8.4181,5,819.87
+C0039,Cameron,Taylor,cameron.taylor5068@shopper.net,2023-10-22,Toronto,ON,Canada,New,0.3318,0,0.0
+C0040,Quinn,Garcia,quinn.garcia9325@inbox.com,2023-10-20,London,,UK,New,1.4879,1,132.25
+C0041,Harper,Anderson,harper.anderson7245@mail.com,2023-10-21,Berlin,,Germany,Returning,1.8434,5,633.4
+C0042,Taylor,Martinez,taylor.martinez8446@inbox.com,2023-12-22,Chicago,IL,USA,New,1.4657,4,1064.82
+C0043,Avery,Jones,avery.jones401@example.com,2023-11-03,San Diego,CA,USA,VIP,4.7642,2,463.24
+C0044,Quinn,Thomas,quinn.thomas6548@mail.com,2023-12-04,Phoenix,AZ,USA,New,0.3091,0,0.0
+C0045,Riley,Taylor,riley.taylor7612@example.com,2023-10-22,Paris,,France,VIP,26.5126,32,8719.07
+C0046,Harper,Martin,harper.martin8271@shopper.net,2023-10-23,Paris,,France,VIP,3.0885,0,0.0
+C0047,Skyler,Rodriguez,skyler.rodriguez8541@shopper.net,2023-10-21,San Diego,CA,USA,New,0.6037,0,0.0
+C0048,Drew,Moore,drew.moore1321@mail.com,2023-10-18,Phoenix,AZ,USA,New,1.46,3,255.17
+C0049,Rowan,Hernandez,rowan.hernandez8891@shopper.net,2023-10-20,Manchester,,UK,VIP,4.6601,6,1484.22
+C0050,Parker,Smith,parker.smith5764@inbox.com,2023-10-21,London,,UK,New,1.2208,0,0.0
+C0051,Skyler,Thomas,skyler.thomas3596@inbox.com,2023-10-24,Manchester,,UK,VIP,4.2005,3,677.71
+C0052,Riley,Anderson,riley.anderson2092@example.com,2023-10-28,London,,UK,New,0.2867,0,0.0
+C0053,Harper,Garcia,harper.garcia824@inbox.com,2023-10-21,London,,UK,New,0.0987,0,0.0
+C0054,Jamie,Wilson,jamie.wilson4134@example.com,2023-11-09,Melbourne,VIC,Australia,Returning,2.8843,2,192.5
+C0055,Skyler,Miller,skyler.miller334@mail.com,2023-10-18,San Diego,CA,USA,New,1.1507,2,264.99
+C0056,Jamie,Lopez,jamie.lopez2750@example.com,2023-10-19,Philadelphia,PA,USA,New,0.5368,0,0.0
+C0057,Taylor,Jackson,taylor.jackson3979@example.com,2023-11-19,San Jose,CA,USA,Returning,2.1017,1,101.0
+C0058,Rowan,Lopez,rowan.lopez1130@inbox.com,2023-11-14,New York,NY,USA,Returning,1.8776,2,111.89
+C0059,Charlie,Rodriguez,charlie.rodriguez8818@shopper.net,2023-10-21,Sydney,NSW,Australia,New,0.0686,1,20.19
+C0060,Taylor,Rodriguez,taylor.rodriguez7386@mail.com,2023-10-27,Sydney,NSW,Australia,New,0.5741,0,0.0
+C0061,Drew,Garcia,drew.garcia7989@mail.com,2023-11-02,Vancouver,BC,Canada,VIP,8.8769,7,1201.52
+C0062,Jamie,Moore,jamie.moore167@mail.com,2023-10-20,Chicago,IL,USA,New,1.1327,2,386.53
+C0063,Parker,Thomas,parker.thomas7343@example.com,2023-10-21,Chicago,IL,USA,New,0.2697,0,0.0
+C0064,Logan,Thomas,logan.thomas9069@inbox.com,2023-10-21,Manchester,,UK,New,0.6498,1,73.66
+C0065,Avery,Hernandez,avery.hernandez1959@mail.com,2023-10-19,San Antonio,TX,USA,New,1.0607,2,1060.47
+C0066,Morgan,Miller,morgan.miller4854@mail.com,2023-10-25,Vancouver,BC,Canada,New,1.4735,0,0.0
+C0067,Parker,Brown,parker.brown201@inbox.com,2023-10-23,Melbourne,VIC,Australia,Returning,2.9104,4,1164.56
+C0068,Parker,Brown,parker.brown1071@shopper.net,2023-10-18,Melbourne,VIC,Australia,New,1.1675,3,235.38
+C0069,Skyler,Brown,skyler.brown9144@shopper.net,2023-11-01,San Diego,CA,USA,Returning,2.7111,1,214.02
+C0070,Reese,Wilson,reese.wilson5004@example.com,2023-10-18,Houston,TX,USA,New,0.4906,0,0.0
+C0071,Taylor,Garcia,taylor.garcia44@shopper.net,2023-10-30,Sydney,NSW,Australia,New,0.3242,1,1226.75
+C0072,Cameron,Anderson,cameron.anderson1167@mail.com,2023-11-13,Dallas,TX,USA,New,0.7543,0,0.0
+C0073,Casey,Rodriguez,casey.rodriguez2331@example.com,2023-10-20,Los Angeles,CA,USA,Returning,2.695,1,216.67
+C0074,Cameron,Anderson,cameron.anderson2038@shopper.net,2023-10-24,San Jose,CA,USA,New,0.8419,0,0.0
+C0075,Jamie,Smith,jamie.smith1497@mail.com,2023-11-02,New York,NY,USA,VIP,22.1304,28,6208.35
+C0076,Riley,Jackson,riley.jackson7142@shopper.net,2023-10-23,Chicago,IL,USA,New,0.7098,0,0.0
+C0077,Riley,Hernandez,riley.hernandez6745@shopper.net,2023-10-28,San Jose,CA,USA,New,0.3886,0,0.0
+C0078,Morgan,Gonzalez,morgan.gonzalez8432@example.com,2023-10-23,Paris,,France,New,1.0874,2,779.48
+C0079,Parker,Anderson,parker.anderson846@mail.com,2023-11-09,Dallas,TX,USA,New,0.7034,0,0.0
+C0080,Morgan,Smith,morgan.smith9976@mail.com,2023-10-23,Philadelphia,PA,USA,Returning,1.936,0,0.0
+C0081,Morgan,Jones,morgan.jones8166@inbox.com,2023-10-30,Berlin,,Germany,New,0.9447,3,237.06
+C0082,Harper,Moore,harper.moore2370@shopper.net,2023-11-18,San Antonio,TX,USA,New,0.1607,0,0.0
+C0083,Rowan,Hernandez,rowan.hernandez8319@inbox.com,2023-10-21,New York,NY,USA,New,0.9793,0,0.0
+C0084,Emerson,Thomas,emerson.thomas5655@inbox.com,2023-11-01,Paris,,France,New,0.248,1,613.85
+C0085,Rowan,Johnson,rowan.johnson5214@shopper.net,2023-10-21,London,,UK,New,0.9917,0,0.0
+C0086,Charlie,Jackson,charlie.jackson5440@example.com,2023-10-19,Sydney,NSW,Australia,New,0.8259,1,198.1
+C0087,Drew,Moore,drew.moore6227@inbox.com,2023-11-01,Melbourne,VIC,Australia,New,0.1525,1,285.88
+C0088,Morgan,Anderson,morgan.anderson2726@inbox.com,2023-10-21,New York,NY,USA,New,0.2734,1,49.16
+C0089,Reese,Garcia,reese.garcia2786@mail.com,2023-10-27,Chicago,IL,USA,Returning,1.869,2,152.35
+C0090,Reese,Jones,reese.jones3805@shopper.net,2023-10-23,Dallas,TX,USA,VIP,3.5957,4,802.14
+C0091,Cameron,Moore,cameron.moore2589@example.com,2023-10-30,Sydney,NSW,Australia,New,0.728,0,0.0
+C0092,Cameron,Martinez,cameron.martinez360@shopper.net,2023-10-30,Dallas,TX,USA,Returning,1.941,2,295.8
+C0093,Avery,Martin,avery.martin4107@mail.com,2023-12-08,Houston,TX,USA,New,0.5564,0,0.0
+C0094,Reese,Lopez,reese.lopez2154@example.com,2023-10-21,San Jose,CA,USA,New,0.0903,0,0.0
+C0095,Logan,Taylor,logan.taylor8222@inbox.com,2023-10-17,Philadelphia,PA,USA,New,0.8514,0,0.0
+C0096,Drew,Brown,drew.brown7674@example.com,2023-10-29,Phoenix,AZ,USA,Returning,2.5321,5,1701.63
+C0097,Quinn,Moore,quinn.moore5993@example.com,2023-10-22,London,,UK,Returning,2.0374,4,517.37
+C0098,Logan,Brown,logan.brown3831@shopper.net,2023-10-20,New York,NY,USA,Returning,2.0032,0,0.0
+C0099,Harper,Martinez,harper.martinez6690@example.com,2023-10-19,Phoenix,AZ,USA,New,0.7381,1,113.94
+C0100,Emerson,Wilson,emerson.wilson9623@mail.com,2023-11-22,Manchester,,UK,VIP,25.9291,29,5942.08
+C0101,Jamie,Johnson,jamie.johnson6071@mail.com,2023-10-23,Sydney,NSW,Australia,New,0.0987,1,214.26
+C0102,Logan,Johnson,logan.johnson6524@inbox.com,2023-10-30,San Antonio,TX,USA,New,0.2541,0,0.0
+C0103,Alex,Johnson,alex.johnson5465@mail.com,2023-10-30,Phoenix,AZ,USA,VIP,3.5581,7,1706.2
+C0104,Reese,Miller,reese.miller3818@inbox.com,2023-11-11,Phoenix,AZ,USA,Returning,1.7778,2,405.9
+C0105,Alex,Jones,alex.jones244@inbox.com,2023-10-25,San Diego,CA,USA,New,0.6307,1,421.06
+C0106,Rowan,Taylor,rowan.taylor1863@example.com,2023-10-23,Melbourne,VIC,Australia,New,1.3407,2,596.57
+C0107,Skyler,Martin,skyler.martin711@inbox.com,2023-10-26,Sydney,NSW,Australia,New,0.8678,3,986.44
+C0108,Harper,Williams,harper.williams1324@inbox.com,2023-10-19,Phoenix,AZ,USA,Returning,1.6578,3,310.4
+C0109,Drew,Gonzalez,drew.gonzalez9788@inbox.com,2023-10-24,Sydney,NSW,Australia,Returning,1.7643,4,872.37
+C0110,Emerson,Miller,emerson.miller7047@shopper.net,2023-10-20,San Diego,CA,USA,New,0.526,0,0.0
+C0111,Drew,Wilson,drew.wilson5121@inbox.com,2023-10-24,Vancouver,BC,Canada,New,0.2859,0,0.0
+C0112,Logan,Jones,logan.jones9116@example.com,2023-10-27,Paris,,France,New,0.298,0,0.0
+C0113,Rowan,Johnson,rowan.johnson4713@inbox.com,2023-10-18,Vancouver,BC,Canada,New,0.3186,0,0.0
+C0114,Morgan,Lopez,morgan.lopez9114@inbox.com,2023-11-07,Houston,TX,USA,Returning,1.7251,2,1543.85
+C0115,Alex,Martin,alex.martin4382@example.com,2023-10-18,Philadelphia,PA,USA,VIP,3.0475,4,1143.44
+C0116,Riley,Jones,riley.jones9279@shopper.net,2023-10-18,Chicago,IL,USA,New,0.4307,0,0.0
+C0117,Drew,Garcia,drew.garcia6063@inbox.com,2023-11-08,Toronto,ON,Canada,New,0.2148,0,0.0
+C0118,Taylor,Rodriguez,taylor.rodriguez7260@shopper.net,2023-10-27,Melbourne,VIC,Australia,New,0.3677,0,0.0
+C0119,Logan,Wilson,logan.wilson1817@inbox.com,2023-10-24,Melbourne,VIC,Australia,Returning,1.8923,4,722.69
+C0120,Morgan,Smith,morgan.smith8150@shopper.net,2023-10-18,Philadelphia,PA,USA,New,0.3502,1,22.72
+C0121,Logan,Williams,logan.williams6506@example.com,2023-11-17,Manchester,,UK,Returning,1.5426,0,0.0
+C0122,Rowan,Martinez,rowan.martinez1888@shopper.net,2023-11-16,New York,NY,USA,Returning,1.6648,1,1188.93
+C0123,Rowan,Brown,rowan.brown3987@shopper.net,2023-10-24,London,,UK,New,0.6109,0,0.0
+C0124,Drew,Garcia,drew.garcia1252@example.com,2023-10-25,Berlin,,Germany,New,0.3876,0,0.0
+C0125,Casey,Davis,casey.davis1685@mail.com,2023-10-19,Dallas,TX,USA,VIP,3.6541,4,1127.06
+C0126,Riley,Thomas,riley.thomas7602@shopper.net,2023-11-25,Toronto,ON,Canada,New,0.8674,2,410.94
+C0127,Jamie,Jackson,jamie.jackson921@inbox.com,2023-10-18,Berlin,,Germany,New,0.2846,0,0.0
+C0128,Cameron,Williams,cameron.williams1480@shopper.net,2024-03-15,Sydney,NSW,Australia,VIP,5.1462,6,1307.75
+C0129,Avery,Hernandez,avery.hernandez9913@shopper.net,2023-10-19,Berlin,,Germany,New,1.0095,0,0.0
+C0130,Skyler,Anderson,skyler.anderson7200@mail.com,2023-10-22,Vancouver,BC,Canada,New,0.7893,1,108.83
+C0131,Sage,Johnson,sage.johnson5483@example.com,2023-10-18,Toronto,ON,Canada,VIP,17.5982,19,6091.75
+C0132,Casey,Hernandez,casey.hernandez1336@mail.com,2023-10-19,Vancouver,BC,Canada,New,1.3762,1,49.1
+C0133,Taylor,Martinez,taylor.martinez9158@shopper.net,2023-11-23,Toronto,ON,Canada,VIP,8.6742,6,1199.08
+C0134,Charlie,Williams,charlie.williams6938@inbox.com,2023-10-22,New York,NY,USA,New,0.97,2,283.15
+C0135,Casey,Jones,casey.jones1265@inbox.com,2023-10-24,Houston,TX,USA,Returning,2.3743,2,168.42
+C0136,Drew,Martin,drew.martin2148@shopper.net,2024-01-09,Phoenix,AZ,USA,New,0.3605,0,0.0
+C0137,Rowan,Lopez,rowan.lopez3892@shopper.net,2023-12-10,San Jose,CA,USA,New,0.5489,0,0.0
+C0138,Parker,Miller,parker.miller6027@shopper.net,2023-12-15,Sydney,NSW,Australia,New,1.0086,2,1029.48
+C0139,Riley,Miller,riley.miller9907@mail.com,2023-10-18,Dallas,TX,USA,Returning,2.1152,5,1902.14
+C0140,Morgan,Martinez,morgan.martinez1375@mail.com,2023-10-23,Dallas,TX,USA,New,0.7851,0,0.0
+C0141,Logan,Davis,logan.davis6327@example.com,2023-10-20,Vancouver,BC,Canada,New,0.7183,1,483.24
+C0142,Jordan,Martinez,jordan.martinez7741@mail.com,2023-10-23,Melbourne,VIC,Australia,New,0.379,0,0.0
+C0143,Casey,Moore,casey.moore9976@shopper.net,2023-10-30,Houston,TX,USA,New,0.4266,0,0.0
+C0144,Sage,Anderson,sage.anderson1030@example.com,2023-10-25,Melbourne,VIC,Australia,New,1.0354,1,130.93
+C0145,Casey,Martinez,casey.martinez7033@example.com,2023-10-20,Vancouver,BC,Canada,New,1.3612,0,0.0
+C0146,Logan,Williams,logan.williams8619@example.com,2023-10-22,London,,UK,Returning,1.9347,4,844.58
+C0147,Taylor,Lopez,taylor.lopez3951@example.com,2023-10-19,Toronto,ON,Canada,New,0.4605,0,0.0
+C0148,Harper,Thomas,harper.thomas2987@mail.com,2023-10-21,Chicago,IL,USA,New,0.3883,0,0.0
+C0149,Parker,Rodriguez,parker.rodriguez600@mail.com,2023-10-19,San Jose,CA,USA,Returning,2.5582,1,209.58
+C0150,Morgan,Lopez,morgan.lopez7160@shopper.net,2023-11-08,Sydney,NSW,Australia,VIP,5.0185,3,1123.46
+C0151,Parker,Lopez,parker.lopez8508@inbox.com,2023-10-28,Chicago,IL,USA,Returning,2.6894,5,1320.58
+C0152,Emerson,Martinez,emerson.martinez5263@example.com,2023-10-21,Chicago,IL,USA,New,0.7199,2,685.29
+C0153,Riley,Anderson,riley.anderson5760@shopper.net,2023-10-27,Los Angeles,CA,USA,VIP,3.1501,2,587.98
+C0154,Jordan,Williams,jordan.williams6656@inbox.com,2023-11-23,Berlin,,Germany,Returning,2.3253,1,108.22
+C0155,Jordan,Jones,jordan.jones1102@mail.com,2023-10-23,Vancouver,BC,Canada,New,0.9011,4,557.8
+C0156,Casey,Taylor,casey.taylor6013@shopper.net,2023-10-27,Toronto,ON,Canada,New,0.9973,2,635.02
+C0157,Emerson,Brown,emerson.brown4289@inbox.com,2023-10-19,Sydney,NSW,Australia,New,0.5515,0,0.0
+C0158,Taylor,Anderson,taylor.anderson2829@shopper.net,2023-11-02,Chicago,IL,USA,New,0.5983,1,77.32
+C0159,Riley,Garcia,riley.garcia5923@mail.com,2023-10-20,Houston,TX,USA,New,0.5724,1,391.63
+C0160,Harper,Moore,harper.moore2127@example.com,2023-11-02,Chicago,IL,USA,VIP,13.6511,8,1397.43
+C0161,Taylor,Jones,taylor.jones5195@example.com,2023-10-23,Sydney,NSW,Australia,New,1.238,1,272.07
+C0162,Casey,Wilson,casey.wilson8239@example.com,2023-10-24,Houston,TX,USA,New,1.0463,0,0.0
+C0163,Taylor,Rodriguez,taylor.rodriguez3217@inbox.com,2023-10-29,Phoenix,AZ,USA,New,0.1433,0,0.0
+C0164,Reese,Jackson,reese.jackson2527@mail.com,2023-11-14,Toronto,ON,Canada,New,1.4587,1,1146.66
+C0165,Reese,Wilson,reese.wilson497@shopper.net,2023-10-23,Paris,,France,Returning,1.571,1,112.17
+C0166,Taylor,Johnson,taylor.johnson2590@shopper.net,2023-10-24,Manchester,,UK,New,1.305,2,407.92
+C0167,Drew,Lopez,drew.lopez6533@mail.com,2023-10-24,Vancouver,BC,Canada,New,0.6036,1,200.85
+C0168,Harper,Davis,harper.davis2309@example.com,2023-10-21,Los Angeles,CA,USA,New,1.3012,1,378.0
+C0169,Riley,Hernandez,riley.hernandez9465@inbox.com,2023-11-04,San Antonio,TX,USA,New,1.0517,0,0.0
+C0170,Cameron,Thomas,cameron.thomas380@example.com,2023-10-26,London,,UK,New,0.4699,0,0.0
+C0171,Jordan,Martinez,jordan.martinez8109@shopper.net,2023-10-28,San Jose,CA,USA,New,0.3649,0,0.0
+C0172,Logan,Gonzalez,logan.gonzalez5996@example.com,2023-10-18,London,,UK,New,0.7178,0,0.0
+C0173,Quinn,Taylor,quinn.taylor7379@inbox.com,2023-10-25,Houston,TX,USA,New,0.2154,1,92.24
+C0174,Quinn,Taylor,quinn.taylor660@example.com,2023-10-19,Los Angeles,CA,USA,New,0.9204,0,0.0
+C0175,Sage,Taylor,sage.taylor2291@inbox.com,2023-10-30,Toronto,ON,Canada,New,0.195,1,59.08
+C0176,Emerson,Thomas,emerson.thomas9223@inbox.com,2023-11-03,Melbourne,VIC,Australia,Returning,2.0269,3,424.6
+C0177,Alex,Martin,alex.martin7776@inbox.com,2023-11-04,San Diego,CA,USA,New,0.2179,0,0.0
+C0178,Sage,Gonzalez,sage.gonzalez2422@mail.com,2023-10-28,Los Angeles,CA,USA,New,0.3871,0,0.0
+C0179,Rowan,Jones,rowan.jones6766@mail.com,2023-10-24,Manchester,,UK,New,0.7252,1,348.0
+C0180,Jordan,Jones,jordan.jones8499@mail.com,2023-10-20,Paris,,France,New,1.0658,1,26.36
+C0181,Riley,Anderson,riley.anderson8735@inbox.com,2023-10-19,Paris,,France,Returning,2.8937,2,270.8
+C0182,Jamie,Martin,jamie.martin7933@mail.com,2023-10-21,San Diego,CA,USA,VIP,4.8377,7,1891.92
+C0183,Parker,Hernandez,parker.hernandez7862@inbox.com,2023-10-21,Paris,,France,Returning,1.6298,1,497.81
+C0184,Quinn,Lopez,quinn.lopez2400@inbox.com,2023-10-19,Los Angeles,CA,USA,New,0.6233,1,296.08
+C0185,Jamie,Thomas,jamie.thomas3506@mail.com,2023-10-20,Paris,,France,New,0.6441,1,110.65
+C0186,Reese,Davis,reese.davis3973@example.com,2023-10-21,Berlin,,Germany,New,0.3591,0,0.0
+C0187,Parker,Brown,parker.brown2253@example.com,2023-12-22,Paris,,France,New,0.8875,0,0.0
+C0188,Cameron,Hernandez,cameron.hernandez4677@example.com,2023-10-27,Chicago,IL,USA,VIP,15.4236,29,9310.2
+C0189,Jordan,Garcia,jordan.garcia6847@mail.com,2023-11-16,Los Angeles,CA,USA,New,0.8826,0,0.0
+C0190,Cameron,Johnson,cameron.johnson152@inbox.com,2023-11-08,Houston,TX,USA,New,0.8039,2,245.86
+C0191,Charlie,Thomas,charlie.thomas2199@shopper.net,2023-10-21,Dallas,TX,USA,New,0.343,1,185.66
+C0192,Jamie,Garcia,jamie.garcia231@inbox.com,2023-10-28,San Jose,CA,USA,New,1.0291,1,104.41
+C0193,Morgan,Garcia,morgan.garcia2304@shopper.net,2023-10-22,Toronto,ON,Canada,New,0.5509,0,0.0
+C0194,Reese,Jackson,reese.jackson188@inbox.com,2023-10-27,Vancouver,BC,Canada,New,0.3887,0,0.0
+C0195,Quinn,Taylor,quinn.taylor5096@example.com,2023-10-22,San Jose,CA,USA,VIP,4.4979,6,2615.17
+C0196,Harper,Martin,harper.martin6122@shopper.net,2023-11-16,Paris,,France,Returning,2.1664,4,595.41
+C0197,Charlie,Anderson,charlie.anderson8654@inbox.com,2023-10-19,Chicago,IL,USA,New,0.7319,0,0.0
+C0198,Reese,Thomas,reese.thomas1490@shopper.net,2023-10-23,Los Angeles,CA,USA,New,0.9244,1,112.96
+C0199,Harper,Martinez,harper.martinez357@shopper.net,2023-12-18,Dallas,TX,USA,New,1.1511,2,418.68
+C0200,Logan,Williams,logan.williams8867@example.com,2023-11-21,Chicago,IL,USA,New,0.6406,1,112.34
+C0201,Casey,Wilson,casey.wilson6136@shopper.net,2023-10-20,Sydney,NSW,Australia,Returning,1.8266,2,455.1
+C0202,Logan,Brown,logan.brown2925@shopper.net,2024-01-02,Berlin,,Germany,VIP,4.6118,6,1591.44
+C0203,Emerson,Wilson,emerson.wilson8716@shopper.net,2023-10-20,San Diego,CA,USA,Returning,1.5452,3,1392.36
+C0204,Rowan,Martin,rowan.martin257@mail.com,2023-10-18,San Antonio,TX,USA,New,0.7557,0,0.0
+C0205,Jordan,Davis,jordan.davis725@shopper.net,2023-10-21,Sydney,NSW,Australia,New,1.0094,0,0.0
+C0206,Reese,Hernandez,reese.hernandez9462@inbox.com,2023-10-21,San Diego,CA,USA,New,1.4231,4,783.54
+C0207,Cameron,Rodriguez,cameron.rodriguez999@mail.com,2023-10-25,Manchester,,UK,New,0.4732,0,0.0
+C0208,Quinn,Taylor,quinn.taylor5223@shopper.net,2023-10-19,Manchester,,UK,Returning,2.291,6,673.93
+C0209,Skyler,Martinez,skyler.martinez2366@shopper.net,2024-05-08,Los Angeles,CA,USA,New,1.1202,0,0.0
+C0210,Skyler,Rodriguez,skyler.rodriguez3332@inbox.com,2023-10-20,Chicago,IL,USA,Returning,2.1177,3,235.91
+C0211,Taylor,Miller,taylor.miller9627@mail.com,2023-10-21,Melbourne,VIC,Australia,VIP,5.1377,4,539.51
+C0212,Parker,Davis,parker.davis9903@mail.com,2023-11-22,London,,UK,Returning,2.145,1,150.2
+C0213,Emerson,Lopez,emerson.lopez5054@inbox.com,2023-10-24,Vancouver,BC,Canada,New,0.7214,1,145.67
+C0214,Avery,Lopez,avery.lopez5127@shopper.net,2023-10-25,Los Angeles,CA,USA,New,0.4397,0,0.0
+C0215,Reese,Jackson,reese.jackson6842@inbox.com,2023-10-20,Phoenix,AZ,USA,New,1.172,3,347.63
+C0216,Emerson,Hernandez,emerson.hernandez4217@shopper.net,2023-10-22,Melbourne,VIC,Australia,New,0.7446,2,514.3
+C0217,Emerson,Thomas,emerson.thomas3016@example.com,2023-11-01,Berlin,,Germany,Returning,2.1481,3,752.08
+C0218,Casey,Smith,casey.smith3584@shopper.net,2023-10-25,Vancouver,BC,Canada,New,1.0898,0,0.0
+C0219,Charlie,Wilson,charlie.wilson2938@example.com,2023-10-24,Houston,TX,USA,New,1.3164,1,204.43
+C0220,Logan,Rodriguez,logan.rodriguez6503@example.com,2023-11-17,Vancouver,BC,Canada,New,0.2334,0,0.0
+C0221,Cameron,Williams,cameron.williams520@example.com,2023-10-21,London,,UK,New,0.3239,0,0.0
+C0222,Rowan,Hernandez,rowan.hernandez9271@example.com,2023-11-04,Berlin,,Germany,New,1.1702,0,0.0
+C0223,Taylor,Rodriguez,taylor.rodriguez8898@example.com,2023-11-07,Philadelphia,PA,USA,VIP,4.5101,6,1094.75
+C0224,Quinn,Williams,quinn.williams4904@mail.com,2023-11-01,San Diego,CA,USA,Returning,1.9368,4,785.42
+C0225,Quinn,Jones,quinn.jones1285@inbox.com,2023-10-20,Los Angeles,CA,USA,New,0.1585,0,0.0
+C0226,Sage,Martin,sage.martin6500@inbox.com,2023-11-07,New York,NY,USA,New,0.8959,1,273.33
+C0227,Emerson,Gonzalez,emerson.gonzalez7076@mail.com,2023-10-18,London,,UK,VIP,5.9434,2,410.66
+C0228,Taylor,Rodriguez,taylor.rodriguez2527@shopper.net,2023-10-30,Phoenix,AZ,USA,New,0.5982,2,491.88
+C0229,Jamie,Brown,jamie.brown2171@example.com,2023-10-22,Philadelphia,PA,USA,New,1.0241,1,108.79
+C0230,Taylor,Lopez,taylor.lopez9081@example.com,2023-10-20,Toronto,ON,Canada,Returning,2.4006,1,104.72
+C0231,Skyler,Jackson,skyler.jackson8538@mail.com,2023-10-20,London,,UK,New,0.628,2,1775.34
+C0232,Riley,Wilson,riley.wilson4522@shopper.net,2023-10-24,San Jose,CA,USA,New,0.5681,0,0.0
+C0233,Parker,Martin,parker.martin3204@shopper.net,2023-10-19,Houston,TX,USA,New,0.2242,0,0.0
+C0234,Harper,Hernandez,harper.hernandez7056@mail.com,2023-10-20,San Jose,CA,USA,New,0.3095,1,48.22
+C0235,Parker,Jackson,parker.jackson3972@inbox.com,2023-10-18,London,,UK,New,0.0941,0,0.0
+C0236,Alex,Anderson,alex.anderson3435@shopper.net,2023-10-27,San Jose,CA,USA,New,0.636,2,241.8
+C0237,Casey,Wilson,casey.wilson6177@example.com,2023-10-22,Sydney,NSW,Australia,New,1.4301,2,260.85
+C0238,Logan,Moore,logan.moore9730@example.com,2023-11-14,Houston,TX,USA,New,0.4943,0,0.0
+C0239,Jordan,Jackson,jordan.jackson6548@inbox.com,2023-10-18,Manchester,,UK,New,1.3751,0,0.0
+C0240,Skyler,Anderson,skyler.anderson6130@shopper.net,2023-11-09,Sydney,NSW,Australia,New,1.0012,3,1555.5
+C0241,Alex,Thomas,alex.thomas1713@inbox.com,2023-12-16,Manchester,,UK,New,0.673,0,0.0
+C0242,Avery,Taylor,avery.taylor7913@inbox.com,2023-10-23,Melbourne,VIC,Australia,New,0.2874,1,484.5
+C0243,Morgan,Garcia,morgan.garcia3997@mail.com,2023-10-18,Paris,,France,Returning,2.784,5,933.79
+C0244,Quinn,Garcia,quinn.garcia3054@shopper.net,2023-10-19,London,,UK,New,0.5242,0,0.0
+C0245,Avery,Rodriguez,avery.rodriguez1026@example.com,2023-10-20,Paris,,France,New,0.906,0,0.0
+C0246,Parker,Taylor,parker.taylor5135@shopper.net,2023-10-26,London,,UK,VIP,4.7073,5,1331.71
+C0247,Cameron,Martin,cameron.martin9670@example.com,2023-10-21,Phoenix,AZ,USA,New,0.3504,0,0.0
+C0248,Casey,Taylor,casey.taylor6365@shopper.net,2023-10-26,Phoenix,AZ,USA,New,0.9518,1,191.07
+C0249,Riley,Moore,riley.moore2734@shopper.net,2023-10-20,San Jose,CA,USA,New,0.915,0,0.0
+C0250,Logan,Smith,logan.smith7940@mail.com,2023-10-24,San Antonio,TX,USA,Returning,1.7198,1,60.5
+C0251,Harper,Thomas,harper.thomas2741@example.com,2023-10-31,New York,NY,USA,New,0.1914,0,0.0
+C0252,Reese,Thomas,reese.thomas9007@example.com,2023-10-20,Houston,TX,USA,VIP,6.2686,1,577.26
+C0253,Harper,Moore,harper.moore3581@shopper.net,2023-11-09,Houston,TX,USA,New,0.3367,0,0.0
+C0254,Taylor,Anderson,taylor.anderson1924@mail.com,2023-11-12,San Antonio,TX,USA,New,0.4123,0,0.0
+C0255,Rowan,Garcia,rowan.garcia2282@mail.com,2023-11-10,San Antonio,TX,USA,New,1.1472,2,1180.92
+C0256,Riley,Hernandez,riley.hernandez4795@inbox.com,2023-11-22,Dallas,TX,USA,New,0.8511,0,0.0
+C0257,Jamie,Jones,jamie.jones2175@mail.com,2023-12-17,Phoenix,AZ,USA,VIP,3.9967,2,449.3
+C0258,Parker,Jones,parker.jones9461@inbox.com,2023-10-22,Manchester,,UK,VIP,8.9062,14,3286.77
+C0259,Quinn,Taylor,quinn.taylor4559@inbox.com,2023-11-09,Sydney,NSW,Australia,VIP,4.4097,3,998.1
+C0260,Harper,Lopez,harper.lopez1038@shopper.net,2023-10-24,San Antonio,TX,USA,New,0.4404,1,400.44
+C0261,Casey,Jackson,casey.jackson7952@inbox.com,2023-10-17,Los Angeles,CA,USA,New,0.7703,0,0.0
+C0262,Riley,Johnson,riley.johnson6494@inbox.com,2023-10-23,San Diego,CA,USA,New,0.4136,0,0.0
+C0263,Taylor,Jones,taylor.jones9727@mail.com,2023-12-02,Berlin,,Germany,VIP,4.2616,5,2716.87
+C0264,Casey,Thomas,casey.thomas1161@mail.com,2023-10-19,London,,UK,New,0.5724,0,0.0
+C0265,Casey,Jones,casey.jones1121@example.com,2023-10-22,Philadelphia,PA,USA,New,1.2955,0,0.0
+C0266,Rowan,Martin,rowan.martin7249@mail.com,2023-10-21,Chicago,IL,USA,Returning,1.9422,2,581.63
+C0267,Taylor,Davis,taylor.davis9067@inbox.com,2023-11-28,New York,NY,USA,New,0.4938,2,283.92
+C0268,Charlie,Miller,charlie.miller6419@inbox.com,2024-01-03,Los Angeles,CA,USA,New,0.4828,0,0.0
+C0269,Skyler,Thomas,skyler.thomas9731@example.com,2023-10-22,Berlin,,Germany,New,0.2995,1,203.4
+C0270,Rowan,Lopez,rowan.lopez8952@mail.com,2023-10-24,Melbourne,VIC,Australia,New,1.0031,0,0.0
+C0271,Quinn,Williams,quinn.williams8792@mail.com,2023-10-20,Dallas,TX,USA,Returning,1.8706,0,0.0
+C0272,Taylor,Martinez,taylor.martinez7168@mail.com,2023-10-18,Los Angeles,CA,USA,New,1.3895,2,285.61
+C0273,Alex,Jones,alex.jones186@mail.com,2023-11-23,Melbourne,VIC,Australia,VIP,5.6893,9,1390.68
+C0274,Riley,Lopez,riley.lopez2080@inbox.com,2023-11-01,Houston,TX,USA,New,1.1531,0,0.0
+C0275,Harper,Taylor,harper.taylor5901@example.com,2023-11-01,Melbourne,VIC,Australia,VIP,7.9689,12,2360.7
+C0276,Morgan,Davis,morgan.davis8337@example.com,2023-10-19,Los Angeles,CA,USA,Returning,2.4062,3,385.55
+C0277,Jordan,Moore,jordan.moore6871@mail.com,2023-10-18,Toronto,ON,Canada,New,1.1495,3,473.86
+C0278,Jordan,Garcia,jordan.garcia3657@example.com,2023-10-18,London,,UK,New,0.0901,0,0.0
+C0279,Drew,Williams,drew.williams9062@shopper.net,2023-10-22,New York,NY,USA,VIP,6.5154,7,1492.0
+C0280,Skyler,Anderson,skyler.anderson6034@shopper.net,2023-11-03,San Antonio,TX,USA,Returning,1.818,5,897.68
+C0281,Rowan,Smith,rowan.smith3818@inbox.com,2023-11-30,New York,NY,USA,Returning,1.545,0,0.0
+C0282,Charlie,Davis,charlie.davis6879@shopper.net,2023-10-21,Los Angeles,CA,USA,New,0.2397,0,0.0
+C0283,Harper,Williams,harper.williams9516@example.com,2023-10-18,Berlin,,Germany,New,0.0443,0,0.0
+C0284,Skyler,Martinez,skyler.martinez4277@inbox.com,2023-11-13,London,,UK,New,0.6513,0,0.0
+C0285,Taylor,Miller,taylor.miller2231@example.com,2023-10-19,Phoenix,AZ,USA,New,0.6957,2,610.29
+C0286,Logan,Miller,logan.miller7405@inbox.com,2023-10-21,Sydney,NSW,Australia,New,0.154,0,0.0
+C0287,Sage,Johnson,sage.johnson3523@inbox.com,2023-10-19,Phoenix,AZ,USA,New,0.6013,0,0.0
+C0288,Cameron,Rodriguez,cameron.rodriguez2849@example.com,2023-11-15,London,,UK,New,1.0996,1,163.4
+C0289,Morgan,Jones,morgan.jones1990@example.com,2023-10-21,Los Angeles,CA,USA,Returning,1.8117,4,1098.29
+C0290,Jamie,Williams,jamie.williams358@example.com,2023-11-11,San Antonio,TX,USA,Returning,2.3286,2,412.15
+C0291,Jordan,Anderson,jordan.anderson830@mail.com,2023-11-04,Manchester,,UK,New,0.4893,0,0.0
+C0292,Riley,Rodriguez,riley.rodriguez4586@shopper.net,2023-10-20,Phoenix,AZ,USA,New,0.7146,2,337.33
+C0293,Jordan,Williams,jordan.williams4584@shopper.net,2023-10-22,Phoenix,AZ,USA,Returning,1.972,6,1500.79
+C0294,Emerson,Smith,emerson.smith6267@inbox.com,2023-10-25,Melbourne,VIC,Australia,VIP,4.1484,3,764.36
+C0295,Quinn,Rodriguez,quinn.rodriguez2947@example.com,2023-10-25,Toronto,ON,Canada,Returning,2.0985,4,1480.93
+C0296,Parker,Taylor,parker.taylor5857@mail.com,2023-10-18,Philadelphia,PA,USA,New,0.113,0,0.0
+C0297,Jordan,Davis,jordan.davis9433@shopper.net,2023-10-20,Vancouver,BC,Canada,New,0.3036,0,0.0
+C0298,Logan,Jackson,logan.jackson463@inbox.com,2023-10-25,Phoenix,AZ,USA,New,0.9809,0,0.0
+C0299,Parker,Johnson,parker.johnson1479@example.com,2023-10-25,San Diego,CA,USA,New,0.9451,1,217.83
+C0300,Sage,Miller,sage.miller2138@inbox.com,2023-11-30,Philadelphia,PA,USA,New,0.8194,0,0.0
+C0301,Cameron,Hernandez,cameron.hernandez2236@mail.com,2023-10-27,Manchester,,UK,New,0.315,0,0.0
+C0302,Riley,Gonzalez,riley.gonzalez5027@inbox.com,2023-11-02,Phoenix,AZ,USA,New,1.152,3,927.45
+C0303,Drew,Martin,drew.martin3620@example.com,2023-12-16,Melbourne,VIC,Australia,New,0.8828,1,92.06
+C0304,Skyler,Williams,skyler.williams5743@inbox.com,2023-10-27,Houston,TX,USA,New,0.8331,1,78.11
+C0305,Riley,Wilson,riley.wilson8079@shopper.net,2023-10-25,Vancouver,BC,Canada,New,0.772,0,0.0
+C0306,Skyler,Garcia,skyler.garcia7394@example.com,2023-10-21,Los Angeles,CA,USA,New,0.4041,2,676.3
+C0307,Taylor,Moore,taylor.moore1526@inbox.com,2023-10-30,Melbourne,VIC,Australia,Returning,1.9566,0,0.0
+C0308,Rowan,Garcia,rowan.garcia878@example.com,2023-10-20,Toronto,ON,Canada,VIP,3.3772,3,996.39
+C0309,Emerson,Rodriguez,emerson.rodriguez4613@inbox.com,2023-10-19,San Diego,CA,USA,New,1.1822,3,537.93
+C0310,Jordan,Lopez,jordan.lopez63@shopper.net,2023-10-19,Chicago,IL,USA,New,1.2396,1,214.74
+C0311,Alex,Miller,alex.miller2799@inbox.com,2023-10-24,Chicago,IL,USA,Returning,2.5187,2,456.32
+C0312,Jamie,Williams,jamie.williams8915@shopper.net,2023-10-22,Philadelphia,PA,USA,New,0.8691,0,0.0
+C0313,Jamie,Jackson,jamie.jackson1010@mail.com,2023-10-19,Houston,TX,USA,VIP,11.3284,9,2795.64
+C0314,Reese,Davis,reese.davis9071@example.com,2023-11-04,London,,UK,Returning,1.5805,5,1539.92
+C0315,Parker,Jackson,parker.jackson3861@shopper.net,2023-11-01,San Jose,CA,USA,Returning,2.2301,3,898.44
+C0316,Morgan,Anderson,morgan.anderson2833@mail.com,2023-10-30,San Antonio,TX,USA,VIP,3.7273,6,982.16
+C0317,Jamie,Hernandez,jamie.hernandez1098@example.com,2023-10-26,London,,UK,VIP,3.5742,4,776.54
+C0318,Alex,Martin,alex.martin9627@shopper.net,2023-10-23,Houston,TX,USA,Returning,1.867,1,339.85
+C0319,Morgan,Brown,morgan.brown9220@example.com,2023-11-03,San Jose,CA,USA,Returning,1.8598,1,197.52
+C0320,Parker,Johnson,parker.johnson2822@inbox.com,2023-10-18,London,,UK,New,1.4129,3,462.89
+C0321,Drew,Davis,drew.davis808@shopper.net,2023-11-02,Dallas,TX,USA,New,0.4765,0,0.0
+C0322,Morgan,Davis,morgan.davis2202@inbox.com,2023-10-31,Sydney,NSW,Australia,Returning,2.7011,3,670.69
+C0323,Taylor,Miller,taylor.miller7238@mail.com,2023-11-27,Manchester,,UK,New,1.0316,2,364.54
+C0324,Cameron,Taylor,cameron.taylor6610@mail.com,2023-11-01,Berlin,,Germany,New,0.4019,0,0.0
+C0325,Avery,Rodriguez,avery.rodriguez6036@shopper.net,2023-10-17,Berlin,,Germany,Returning,1.5068,0,0.0
+C0326,Parker,Martin,parker.martin7309@mail.com,2023-10-26,Melbourne,VIC,Australia,VIP,3.9458,5,912.81
+C0327,Cameron,Smith,cameron.smith6334@example.com,2023-10-20,Philadelphia,PA,USA,New,0.5519,0,0.0
+C0328,Rowan,Taylor,rowan.taylor329@example.com,2023-12-10,Melbourne,VIC,Australia,New,1.1912,2,203.52
+C0329,Jamie,Martin,jamie.martin5005@inbox.com,2023-10-23,Manchester,,UK,New,0.4926,0,0.0
+C0330,Sage,Gonzalez,sage.gonzalez9577@example.com,2023-10-24,New York,NY,USA,Returning,2.5628,0,0.0
+C0331,Sage,Martin,sage.martin4632@inbox.com,2023-10-24,Houston,TX,USA,New,0.5666,0,0.0
+C0332,Jamie,Rodriguez,jamie.rodriguez4896@mail.com,2023-10-24,Phoenix,AZ,USA,Returning,2.4413,3,474.94
+C0333,Drew,Jones,drew.jones418@shopper.net,2023-10-20,San Jose,CA,USA,New,0.8198,1,101.46
+C0334,Reese,Miller,reese.miller5623@mail.com,2023-10-28,Paris,,France,VIP,3.2493,6,1285.14
+C0335,Cameron,Garcia,cameron.garcia9147@mail.com,2023-10-17,San Jose,CA,USA,Returning,1.7369,3,1789.73
+C0336,Drew,Williams,drew.williams3642@inbox.com,2023-10-30,San Diego,CA,USA,Returning,2.0941,2,122.76
+C0337,Jamie,Jackson,jamie.jackson4818@shopper.net,2023-10-22,Houston,TX,USA,VIP,13.1194,15,4173.27
+C0338,Taylor,Thomas,taylor.thomas3188@example.com,2023-10-25,London,,UK,Returning,2.1152,3,419.98
+C0339,Avery,Hernandez,avery.hernandez6705@shopper.net,2023-10-19,Phoenix,AZ,USA,Returning,2.5443,1,110.05
+C0340,Riley,Hernandez,riley.hernandez951@example.com,2023-10-18,Sydney,NSW,Australia,New,0.9272,0,0.0
+C0341,Taylor,Jones,taylor.jones7106@shopper.net,2023-10-22,London,,UK,New,1.0557,1,72.23
+C0342,Alex,Davis,alex.davis3708@inbox.com,2023-10-19,San Jose,CA,USA,New,1.2004,0,0.0
+C0343,Jordan,Martinez,jordan.martinez4765@shopper.net,2023-10-26,Berlin,,Germany,New,0.0648,0,0.0
+C0344,Logan,Miller,logan.miller2702@shopper.net,2023-10-18,New York,NY,USA,New,1.2034,3,542.19
+C0345,Logan,Johnson,logan.johnson6148@inbox.com,2023-10-29,Paris,,France,New,0.3054,0,0.0
+C0346,Morgan,Moore,morgan.moore4141@shopper.net,2023-10-18,Phoenix,AZ,USA,New,0.2337,0,0.0
+C0347,Morgan,Taylor,morgan.taylor4424@mail.com,2023-10-30,Manchester,,UK,Returning,1.5302,3,1070.96
+C0348,Morgan,Brown,morgan.brown8155@mail.com,2023-11-12,San Antonio,TX,USA,New,0.8316,0,0.0
+C0349,Emerson,Thomas,emerson.thomas3403@shopper.net,2023-10-26,Toronto,ON,Canada,VIP,7.0458,5,2070.39
+C0350,Harper,Martinez,harper.martinez4328@shopper.net,2023-10-20,Los Angeles,CA,USA,New,0.3283,0,0.0
+C0351,Drew,Wilson,drew.wilson1899@example.com,2023-10-27,Los Angeles,CA,USA,New,0.2256,0,0.0
+C0352,Logan,Hernandez,logan.hernandez2997@example.com,2023-10-22,London,,UK,VIP,6.4059,9,2099.76
+C0353,Parker,Wilson,parker.wilson2733@example.com,2023-10-27,Phoenix,AZ,USA,New,0.7033,0,0.0
+C0354,Reese,Anderson,reese.anderson2970@shopper.net,2023-11-15,Vancouver,BC,Canada,VIP,3.6699,1,621.25
+C0355,Parker,Brown,parker.brown6739@shopper.net,2023-10-25,Los Angeles,CA,USA,Returning,1.64,2,727.85
+C0356,Drew,Taylor,drew.taylor8571@example.com,2023-10-27,Manchester,,UK,New,0.4415,1,1219.74
+C0357,Quinn,Jones,quinn.jones9148@example.com,2023-10-26,New York,NY,USA,New,0.9813,0,0.0
+C0358,Jamie,Johnson,jamie.johnson8306@mail.com,2023-10-28,Paris,,France,New,0.4315,0,0.0
+C0359,Reese,Anderson,reese.anderson1443@shopper.net,2023-10-23,Sydney,NSW,Australia,Returning,1.6223,3,618.63
+C0360,Sage,Martin,sage.martin4991@mail.com,2023-11-10,Sydney,NSW,Australia,New,0.3738,0,0.0
+C0361,Harper,Hernandez,harper.hernandez9178@shopper.net,2023-10-28,Vancouver,BC,Canada,Returning,1.7711,3,610.5
+C0362,Drew,Lopez,drew.lopez4784@inbox.com,2023-10-17,Houston,TX,USA,Returning,1.5305,1,1050.16
+C0363,Sage,Miller,sage.miller3073@example.com,2023-10-20,London,,UK,Returning,2.0081,3,397.2
+C0364,Morgan,Anderson,morgan.anderson7494@mail.com,2023-10-25,Melbourne,VIC,Australia,VIP,6.8952,6,2165.44
+C0365,Riley,Jackson,riley.jackson2846@mail.com,2023-10-21,Houston,TX,USA,VIP,3.7582,4,2938.07
+C0366,Quinn,Wilson,quinn.wilson9978@mail.com,2023-10-22,Dallas,TX,USA,New,0.1638,0,0.0
+C0367,Casey,Wilson,casey.wilson9872@inbox.com,2023-12-19,Paris,,France,New,0.2553,0,0.0
+C0368,Cameron,Lopez,cameron.lopez2174@mail.com,2023-10-26,Berlin,,Germany,VIP,4.5199,3,857.88
+C0369,Emerson,Thomas,emerson.thomas9549@shopper.net,2023-10-17,Paris,,France,VIP,3.0289,3,689.03
+C0370,Alex,Gonzalez,alex.gonzalez2382@example.com,2023-10-17,Los Angeles,CA,USA,New,0.4425,0,0.0
+C0371,Jamie,Jones,jamie.jones1017@inbox.com,2023-10-30,San Antonio,TX,USA,New,1.1478,3,1037.6
+C0372,Cameron,Johnson,cameron.johnson6252@shopper.net,2023-10-20,Manchester,,UK,Returning,2.5705,4,602.19
+C0373,Harper,Davis,harper.davis6026@mail.com,2023-10-21,San Antonio,TX,USA,New,1.4702,2,191.56
+C0374,Riley,Taylor,riley.taylor1956@shopper.net,2023-10-22,Los Angeles,CA,USA,New,0.2175,0,0.0
+C0375,Jamie,Smith,jamie.smith5416@shopper.net,2023-11-01,Phoenix,AZ,USA,VIP,3.9397,9,1759.09
+C0376,Cameron,Thomas,cameron.thomas9383@inbox.com,2023-11-01,Chicago,IL,USA,New,0.5551,0,0.0
+C0377,Taylor,Taylor,taylor.taylor2612@shopper.net,2023-10-24,Paris,,France,New,0.5444,0,0.0
+C0378,Drew,Hernandez,drew.hernandez5912@inbox.com,2023-10-23,San Antonio,TX,USA,VIP,3.4328,5,2239.22
+C0379,Morgan,Lopez,morgan.lopez7302@mail.com,2023-11-11,San Diego,CA,USA,New,1.101,3,461.76
+C0380,Charlie,Lopez,charlie.lopez8427@shopper.net,2023-10-19,Melbourne,VIC,Australia,VIP,5.4422,4,765.33
+C0381,Alex,Williams,alex.williams3454@mail.com,2023-11-01,Manchester,,UK,Returning,2.0817,6,882.22
+C0382,Taylor,Jones,taylor.jones390@shopper.net,2023-10-20,Toronto,ON,Canada,VIP,3.2879,4,1008.85
+C0383,Harper,Gonzalez,harper.gonzalez7095@inbox.com,2023-10-22,New York,NY,USA,New,0.612,1,49.09
+C0384,Cameron,Martinez,cameron.martinez9938@example.com,2023-11-02,San Jose,CA,USA,New,0.5884,1,48.76
+C0385,Parker,Garcia,parker.garcia8741@mail.com,2023-12-15,Phoenix,AZ,USA,Returning,2.3405,0,0.0
+C0386,Casey,Martinez,casey.martinez6114@example.com,2023-11-01,Paris,,France,New,0.1589,0,0.0
+C0387,Quinn,Moore,quinn.moore8971@example.com,2023-10-18,San Jose,CA,USA,Returning,1.6351,3,728.31
+C0388,Charlie,Jones,charlie.jones2638@mail.com,2023-10-26,San Diego,CA,USA,New,0.1341,0,0.0
+C0389,Reese,Johnson,reese.johnson8993@shopper.net,2023-10-21,Paris,,France,VIP,17.3424,22,5735.25
+C0390,Logan,Jones,logan.jones3843@example.com,2023-12-13,San Jose,CA,USA,New,0.5661,2,730.8
+C0391,Sage,Martinez,sage.martinez9572@mail.com,2023-10-20,Vancouver,BC,Canada,VIP,5.4891,6,1350.56
+C0392,Rowan,Rodriguez,rowan.rodriguez5890@mail.com,2023-11-10,Toronto,ON,Canada,New,0.7055,1,394.59
+C0393,Emerson,Brown,emerson.brown2880@example.com,2023-11-01,Dallas,TX,USA,New,1.0941,2,189.52
+C0394,Taylor,Williams,taylor.williams306@example.com,2023-10-30,London,,UK,New,0.3413,1,97.7
+C0395,Emerson,Thomas,emerson.thomas2436@inbox.com,2023-10-17,London,,UK,Returning,1.7583,2,769.33
+C0396,Harper,Taylor,harper.taylor8363@example.com,2023-10-29,London,,UK,New,0.2597,1,200.33
+C0397,Reese,Jones,reese.jones7922@inbox.com,2023-10-19,Los Angeles,CA,USA,New,0.3044,1,502.86
+C0398,Jordan,Miller,jordan.miller8486@inbox.com,2023-10-23,London,,UK,New,0.3611,0,0.0
+C0399,Charlie,Rodriguez,charlie.rodriguez4315@mail.com,2023-10-28,London,,UK,VIP,4.9471,3,1086.66
+C0400,Charlie,Rodriguez,charlie.rodriguez6166@mail.com,2023-10-20,Berlin,,Germany,New,0.2774,0,0.0
+C0401,Sage,Smith,sage.smith8223@mail.com,2023-10-27,Sydney,NSW,Australia,New,0.4308,2,679.31
+C0402,Morgan,Davis,morgan.davis6794@inbox.com,2023-10-23,Houston,TX,USA,New,0.5534,0,0.0
+C0403,Rowan,Smith,rowan.smith3993@example.com,2023-10-25,Phoenix,AZ,USA,New,1.2602,0,0.0
+C0404,Reese,Jones,reese.jones917@mail.com,2023-11-19,Dallas,TX,USA,VIP,6.9819,11,5635.29
+C0405,Cameron,Williams,cameron.williams3549@shopper.net,2023-11-01,Melbourne,VIC,Australia,VIP,4.1365,8,3487.12
+C0406,Reese,Garcia,reese.garcia8370@inbox.com,2023-10-30,Philadelphia,PA,USA,New,0.8229,0,0.0
+C0407,Skyler,Gonzalez,skyler.gonzalez6316@mail.com,2023-11-16,Houston,TX,USA,VIP,4.0581,4,1948.37
+C0408,Emerson,Taylor,emerson.taylor1926@example.com,2024-02-14,Melbourne,VIC,Australia,New,1.0698,1,96.76
+C0409,Rowan,Taylor,rowan.taylor6893@inbox.com,2023-10-30,Los Angeles,CA,USA,VIP,4.273,2,295.95
+C0410,Quinn,Lopez,quinn.lopez9651@example.com,2023-10-19,Manchester,,UK,New,0.8243,1,478.25
+C0411,Alex,Jackson,alex.jackson8562@example.com,2023-10-28,Berlin,,Germany,New,0.7561,0,0.0
+C0412,Reese,Rodriguez,reese.rodriguez4282@shopper.net,2023-10-22,Vancouver,BC,Canada,New,1.2239,2,301.92
+C0413,Riley,Lopez,riley.lopez9161@shopper.net,2023-11-02,Dallas,TX,USA,New,0.4281,1,235.31
+C0414,Riley,Brown,riley.brown3514@shopper.net,2023-11-14,Toronto,ON,Canada,New,1.3966,2,375.95
+C0415,Quinn,Smith,quinn.smith1493@mail.com,2023-11-12,Melbourne,VIC,Australia,New,0.3825,1,100.69
+C0416,Taylor,Martin,taylor.martin619@shopper.net,2023-10-28,London,,UK,Returning,2.4641,3,1054.7
+C0417,Riley,Thomas,riley.thomas7193@example.com,2023-10-24,San Antonio,TX,USA,Returning,2.7055,6,1455.13
+C0418,Skyler,Martin,skyler.martin2777@example.com,2023-11-01,Vancouver,BC,Canada,New,0.6475,0,0.0
+C0419,Charlie,Smith,charlie.smith1125@example.com,2023-10-17,Paris,,France,Returning,2.9806,2,300.5
+C0420,Jamie,Davis,jamie.davis9935@mail.com,2023-11-27,Sydney,NSW,Australia,New,0.5009,0,0.0
+C0421,Morgan,Moore,morgan.moore1186@inbox.com,2023-11-12,Toronto,ON,Canada,Returning,1.6017,1,135.11
+C0422,Drew,Anderson,drew.anderson7549@example.com,2023-10-27,Melbourne,VIC,Australia,New,1.029,1,392.96
+C0423,Jamie,Davis,jamie.davis4707@example.com,2023-11-25,London,,UK,New,0.9397,0,0.0
+C0424,Reese,Rodriguez,reese.rodriguez2995@mail.com,2023-10-29,Melbourne,VIC,Australia,New,0.5475,1,129.66
+C0425,Skyler,Miller,skyler.miller4092@inbox.com,2023-10-29,Phoenix,AZ,USA,New,0.9874,0,0.0
+C0426,Emerson,Johnson,emerson.johnson7902@inbox.com,2023-10-20,Toronto,ON,Canada,New,0.3639,0,0.0
+C0427,Charlie,Rodriguez,charlie.rodriguez6519@mail.com,2023-10-23,Phoenix,AZ,USA,New,1.007,0,0.0
+C0428,Riley,Anderson,riley.anderson1973@shopper.net,2023-10-19,Toronto,ON,Canada,New,0.4615,0,0.0
+C0429,Jamie,Garcia,jamie.garcia8988@inbox.com,2023-10-22,San Diego,CA,USA,New,0.7988,0,0.0
+C0430,Logan,Lopez,logan.lopez6564@inbox.com,2023-10-20,Sydney,NSW,Australia,New,1.1838,0,0.0
+C0431,Morgan,Rodriguez,morgan.rodriguez3864@shopper.net,2023-11-02,London,,UK,New,0.2337,1,48.0
+C0432,Casey,Taylor,casey.taylor8749@inbox.com,2023-10-20,Melbourne,VIC,Australia,New,1.2134,1,47.37
+C0433,Riley,Johnson,riley.johnson3531@inbox.com,2023-10-30,Melbourne,VIC,Australia,New,0.5818,0,0.0
+C0434,Jamie,Lopez,jamie.lopez325@shopper.net,2023-10-20,Houston,TX,USA,Returning,1.5342,3,424.38
+C0435,Emerson,Garcia,emerson.garcia4664@inbox.com,2023-10-30,Toronto,ON,Canada,New,0.7513,3,723.77
+C0436,Casey,Garcia,casey.garcia5528@shopper.net,2023-10-20,London,,UK,New,0.6419,1,1233.12
+C0437,Jamie,Martin,jamie.martin6480@inbox.com,2023-11-03,Sydney,NSW,Australia,New,0.9027,3,1214.55
+C0438,Alex,Jones,alex.jones3845@inbox.com,2023-10-20,Chicago,IL,USA,New,0.9525,1,97.19
+C0439,Quinn,Taylor,quinn.taylor1364@example.com,2023-10-26,Dallas,TX,USA,VIP,3.3651,1,193.75
+C0440,Skyler,Davis,skyler.davis4656@shopper.net,2023-11-04,Phoenix,AZ,USA,New,0.1949,0,0.0
+C0441,Emerson,Rodriguez,emerson.rodriguez8988@shopper.net,2023-10-18,Phoenix,AZ,USA,Returning,1.8541,3,783.51
+C0442,Reese,Wilson,reese.wilson8577@inbox.com,2023-10-24,Vancouver,BC,Canada,New,0.3616,1,404.55
+C0443,Rowan,Rodriguez,rowan.rodriguez2552@inbox.com,2023-11-04,New York,NY,USA,New,0.9481,2,577.5
+C0444,Parker,Thomas,parker.thomas4909@example.com,2023-11-12,Manchester,,UK,VIP,3.086,6,866.89
+C0445,Avery,Wilson,avery.wilson9185@shopper.net,2023-10-18,London,,UK,VIP,4.3048,5,891.44
+C0446,Skyler,Rodriguez,skyler.rodriguez1298@shopper.net,2023-10-25,San Diego,CA,USA,Returning,1.8862,1,485.5
+C0447,Jamie,Martinez,jamie.martinez8716@inbox.com,2023-10-23,Manchester,,UK,Returning,1.968,1,58.8
+C0448,Drew,Smith,drew.smith2493@example.com,2023-10-21,Paris,,France,New,0.899,0,0.0
+C0449,Taylor,Jones,taylor.jones242@shopper.net,2023-10-21,San Antonio,TX,USA,New,0.7418,2,536.51
+C0450,Drew,Williams,drew.williams2394@example.com,2023-10-29,Dallas,TX,USA,New,0.9386,2,273.44
+C0451,Jamie,Gonzalez,jamie.gonzalez207@example.com,2023-10-18,San Diego,CA,USA,New,0.1242,0,0.0
+C0452,Avery,Thomas,avery.thomas6376@inbox.com,2023-10-17,Toronto,ON,Canada,Returning,2.5398,5,666.61
+C0453,Morgan,Rodriguez,morgan.rodriguez7885@inbox.com,2023-10-22,San Antonio,TX,USA,New,0.4491,0,0.0
+C0454,Alex,Garcia,alex.garcia4524@example.com,2023-10-23,London,,UK,New,0.7848,1,54.61
+C0455,Riley,Thomas,riley.thomas1498@inbox.com,2023-11-24,Los Angeles,CA,USA,New,0.4332,0,0.0
+C0456,Emerson,Lopez,emerson.lopez7188@mail.com,2023-10-29,New York,NY,USA,New,0.9562,2,483.29
+C0457,Cameron,Moore,cameron.moore8030@mail.com,2023-10-25,Philadelphia,PA,USA,New,0.6638,0,0.0
+C0458,Sage,Moore,sage.moore2628@example.com,2023-10-20,Berlin,,Germany,New,0.5265,3,411.94
+C0459,Alex,Taylor,alex.taylor6211@mail.com,2023-10-27,New York,NY,USA,New,1.3547,3,797.54
+C0460,Taylor,Moore,taylor.moore6349@mail.com,2023-11-14,Berlin,,Germany,New,0.4371,0,0.0
+C0461,Rowan,Hernandez,rowan.hernandez1810@example.com,2023-10-26,Berlin,,Germany,New,1.4885,2,396.34
+C0462,Parker,Taylor,parker.taylor9672@inbox.com,2023-10-21,Los Angeles,CA,USA,New,0.3744,0,0.0
+C0463,Taylor,Anderson,taylor.anderson995@inbox.com,2023-10-25,Paris,,France,New,0.3627,0,0.0
+C0464,Morgan,Davis,morgan.davis8711@shopper.net,2023-10-18,San Antonio,TX,USA,VIP,9.8594,7,1638.12
+C0465,Emerson,Moore,emerson.moore6803@example.com,2023-11-06,Vancouver,BC,Canada,New,0.8697,2,451.94
+C0466,Riley,Moore,riley.moore6580@inbox.com,2023-10-25,Philadelphia,PA,USA,Returning,2.7366,3,295.52
+C0467,Rowan,Hernandez,rowan.hernandez9969@mail.com,2023-10-17,Paris,,France,Returning,2.6647,2,394.93
+C0468,Harper,Anderson,harper.anderson6506@example.com,2023-10-21,Los Angeles,CA,USA,Returning,1.5676,1,90.6
+C0469,Emerson,Taylor,emerson.taylor9115@mail.com,2023-10-19,Houston,TX,USA,New,0.3753,2,239.36
+C0470,Reese,Davis,reese.davis3818@inbox.com,2023-10-19,San Jose,CA,USA,VIP,6.3731,9,3169.54
+C0471,Riley,Thomas,riley.thomas9441@example.com,2023-10-19,San Jose,CA,USA,Returning,2.9663,2,2433.22
+C0472,Rowan,Wilson,rowan.wilson1975@mail.com,2023-10-30,New York,NY,USA,New,0.2002,0,0.0
+C0473,Drew,Moore,drew.moore9256@mail.com,2023-10-24,Toronto,ON,Canada,New,0.7179,0,0.0
+C0474,Sage,Jackson,sage.jackson8270@example.com,2023-10-21,San Diego,CA,USA,New,0.4027,0,0.0
+C0475,Parker,Jackson,parker.jackson808@shopper.net,2023-10-18,Dallas,TX,USA,Returning,1.7163,2,460.47
+C0476,Casey,Thomas,casey.thomas9164@mail.com,2023-10-21,Melbourne,VIC,Australia,New,1.0564,1,91.77
+C0477,Jamie,Wilson,jamie.wilson5299@example.com,2023-10-29,Houston,TX,USA,New,0.6817,0,0.0
+C0478,Sage,Smith,sage.smith4995@mail.com,2023-10-23,Vancouver,BC,Canada,New,0.4392,0,0.0
+C0479,Taylor,Brown,taylor.brown894@mail.com,2023-10-19,Phoenix,AZ,USA,New,1.0853,2,190.08
+C0480,Charlie,Rodriguez,charlie.rodriguez8992@shopper.net,2023-11-06,Phoenix,AZ,USA,New,0.1051,0,0.0
+C0481,Charlie,Johnson,charlie.johnson4186@mail.com,2023-10-18,Los Angeles,CA,USA,New,1.2383,1,96.14
+C0482,Alex,Williams,alex.williams6368@inbox.com,2023-11-30,Vancouver,BC,Canada,New,0.4749,1,55.58
+C0483,Morgan,Hernandez,morgan.hernandez7941@example.com,2023-10-27,Philadelphia,PA,USA,New,0.5189,1,55.71
+C0484,Riley,Smith,riley.smith5682@inbox.com,2023-10-26,Vancouver,BC,Canada,VIP,5.181,6,984.86
+C0485,Jordan,Rodriguez,jordan.rodriguez6344@example.com,2023-11-05,Paris,,France,New,0.6395,0,0.0
+C0486,Casey,Williams,casey.williams6263@mail.com,2023-10-21,Manchester,,UK,New,0.5274,2,622.42
+C0487,Avery,Jones,avery.jones9520@mail.com,2023-10-19,Phoenix,AZ,USA,New,1.0484,2,489.74
+C0488,Casey,Jackson,casey.jackson2590@inbox.com,2023-12-06,Chicago,IL,USA,New,0.3831,2,875.8
+C0489,Casey,Smith,casey.smith5222@shopper.net,2023-10-18,Manchester,,UK,VIP,4.5709,6,913.48
+C0490,Jamie,Jones,jamie.jones3080@example.com,2023-10-17,Phoenix,AZ,USA,New,1.2996,2,397.32
+C0491,Reese,Martin,reese.martin3784@mail.com,2023-10-29,San Diego,CA,USA,Returning,1.8527,2,457.28
+C0492,Charlie,Martin,charlie.martin7681@inbox.com,2023-11-10,Philadelphia,PA,USA,New,0.4626,0,0.0
+C0493,Jordan,Wilson,jordan.wilson246@inbox.com,2023-10-18,Manchester,,UK,New,0.5268,1,82.14
+C0494,Riley,Anderson,riley.anderson8028@inbox.com,2023-11-09,Sydney,NSW,Australia,VIP,3.3488,4,520.92
+C0495,Quinn,Hernandez,quinn.hernandez6458@example.com,2023-10-19,Berlin,,Germany,New,0.3891,0,0.0
+C0496,Jordan,Moore,jordan.moore6348@example.com,2023-10-21,San Antonio,TX,USA,New,0.143,0,0.0
+C0497,Harper,Garcia,harper.garcia6922@inbox.com,2023-10-23,Los Angeles,CA,USA,New,0.2449,2,2374.84
+C0498,Riley,Jackson,riley.jackson8953@mail.com,2023-10-22,London,,UK,New,0.2606,0,0.0
+C0499,Avery,Anderson,avery.anderson1478@inbox.com,2023-11-30,Toronto,ON,Canada,New,0.8726,1,73.68
+C0500,Charlie,Gonzalez,charlie.gonzalez8384@mail.com,2023-10-25,London,,UK,New,0.4277,0,0.0

@@ -1,0 +1,51 @@
+product_id,name,category,base_price,unit_cost,sku
+P001,Puzzle Set,Toys,48.04,26.79,SKU-TO-0001
+P002,Throw Blanket,Home,110.71,58.16,SKU-HO-0002
+P003,4K Monitor,Electronics,613.72,367.01,SKU-EL-0003
+P004,Yoga Pants,Apparel,71.59,42.93,SKU-AP-0004
+P005,Cycling Helmet,Outdoor,384.52,209.06,SKU-OU-0005
+P006,Graphic T-Shirt,Apparel,99.49,53.38,SKU-AP-0006
+P007,Cycling Helmet,Outdoor,200.33,144.8,SKU-OU-0007
+P008,Athletic Shorts,Apparel,132.06,79.4,SKU-AP-0008
+P009,Yoga Pants,Apparel,137.76,102.09,SKU-AP-0009
+P010,Ceramic Mugs,Home,55.04,39.6,SKU-HO-0010
+P011,Desk Organizer,Home,176.49,105.36,SKU-HO-0011
+P012,RC Car,Toys,74.55,38.51,SKU-TO-0012
+P013,Desk Organizer,Home,197.22,122.01,SKU-HO-0013
+P014,Air Fryer,Home,217.3,123.36,SKU-HO-0014
+P015,Jeans,Apparel,97.19,52.29,SKU-AP-0015
+P016,Sunscreen,Beauty,20.24,11.1,SKU-BE-0016
+P017,Dollhouse,Toys,113.75,83.38,SKU-TO-0017
+P018,Picnic Set,Outdoor,402.18,268.13,SKU-OU-0018
+P019,Camping Tent,Outdoor,473.37,256.35,SKU-OU-0019
+P020,Hair Dryer,Beauty,80,50.37,SKU-BE-0020
+P021,Picnic Set,Outdoor,195.71,101.39,SKU-OU-0021
+P022,Cycling Helmet,Outdoor,347.74,212.54,SKU-OU-0022
+P023,Picnic Set,Outdoor,500,326.3,SKU-OU-0023
+P024,Ceramic Mugs,Home,237.31,172.83,SKU-HO-0024
+P025,Bedding Set,Home,300,185.62,SKU-HO-0025
+P026,LED Lamp,Home,145.36,91.48,SKU-HO-0026
+P027,Rain Jacket,Apparel,92.35,65.96,SKU-AP-0027
+P028,Insulated Water Bottle,Outdoor,86.47,62.35,SKU-OU-0028
+P029,Smartphone,Electronics,96.84,70.13,SKU-EL-0029
+P030,Action Figure,Toys,101.82,71.26,SKU-TO-0030
+P031,Picnic Set,Outdoor,500,340.92,SKU-OU-0031
+P032,Wireless Headphones,Electronics,1200,869.29,SKU-EL-0032
+P033,Picnic Set,Outdoor,500,353.59,SKU-OU-0033
+P034,Bedding Set,Home,132.06,86.11,SKU-HO-0034
+P035,Foldable Chair,Outdoor,331.64,180.95,SKU-OU-0035
+P036,RC Car,Toys,75.86,41.48,SKU-TO-0036
+P037,Vitamin C Serum,Beauty,36.97,21.16,SKU-BE-0037
+P038,Jeans,Apparel,48.93,34.45,SKU-AP-0038
+P039,Ceramic Mugs,Home,147.29,92.96,SKU-HO-0039
+P040,Shampoo,Beauty,29.49,17.88,SKU-BE-0040
+P041,Vitamin C Serum,Beauty,24.72,13.64,SKU-BE-0041
+P042,Sunscreen,Beauty,29.11,20.68,SKU-BE-0042
+P043,Smartwatch,Electronics,173.03,111.12,SKU-EL-0043
+P044,Picnic Set,Outdoor,282.6,165.14,SKU-OU-0044
+P045,Science Kit,Toys,26.03,17.4,SKU-TO-0045
+P046,Shampoo,Beauty,29.86,17.93,SKU-BE-0046
+P047,Sleeping Bag,Outdoor,133.3,97.92,SKU-OU-0047
+P048,Graphic T-Shirt,Apparel,150,95.51,SKU-AP-0048
+P049,Foldable Chair,Outdoor,74.89,50.24,SKU-OU-0049
+P050,Action Figure,Toys,109.49,58.92,SKU-TO-0050
