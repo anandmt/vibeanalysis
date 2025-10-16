@@ -131,6 +131,58 @@ async function main() {
   const bfAvgDiscOnly = mean(bfOrders.filter(o=> (o.discount||0) > 0).map(o=>o.discount||0)) || 0;
   const nonbfAvgDiscOnly = mean(nonbfOrders.filter(o=> (o.discount||0) > 0).map(o=>o.discount||0)) || 0;
 
+  // Churn computations (buyers base)
+  const endDate = orders.reduce((max, o) => o.order_dt > max ? o.order_dt : max, new Date(0));
+  function computeChurn(windowDays) {
+    const cutoff = new Date(endDate.getTime() - windowDays*24*3600*1000);
+    const buyersSet = new Set(buyers);
+    const lastOrder = new Map();
+    for (const o of orders) {
+      const dt = o.order_dt;
+      const prev = lastOrder.get(o.customer_id) || new Date(0);
+      if (dt > prev) lastOrder.set(o.customer_id, dt);
+    }
+    let churned = 0;
+    for (const c of buyersSet) {
+      const lo = lastOrder.get(c) || new Date(0);
+      if (lo < cutoff) churned++;
+    }
+    return { rate: churned / (buyersSet.size || 1), churned, buyers: buyersSet.size, cutoff };
+  }
+  const churn60 = computeChurn(60);
+  const churn90 = computeChurn(90);
+  const churn120 = computeChurn(120);
+  const churn180 = computeChurn(180);
+
+  // Cohort retention matrix
+  const firstOrder = new Map();
+  for (const o of orders.sort((a,b)=>a.order_dt-b.order_dt)) {
+    if (!firstOrder.has(o.customer_id)) firstOrder.set(o.customer_id, o.order_dt);
+  }
+  const ym = (d) => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+  const cohortMembers = new Map();
+  for (const [cid, dt] of firstOrder.entries()) {
+    const key = ym(dt);
+    if (!cohortMembers.has(key)) cohortMembers.set(key, new Set());
+    cohortMembers.get(key).add(cid);
+  }
+  const buyersByMonth = new Map();
+  for (const o of orders) {
+    const key = ym(o.order_dt);
+    if (!buyersByMonth.has(key)) buyersByMonth.set(key, new Set());
+    buyersByMonth.get(key).add(o.customer_id);
+  }
+  const months = Array.from(new Set([...buyersByMonth.keys(), ...cohortMembers.keys()])).sort();
+  const retention = months.map((mi, iIdx) => {
+    const cohort = cohortMembers.get(mi) || new Set();
+    return months.map((mj, jIdx) => {
+      if (jIdx < iIdx) return null;
+      const buyersSet = buyersByMonth.get(mj) || new Set();
+      const kept = Array.from(cohort).filter(c => buyersSet.has(c)).length;
+      return cohort.size ? kept / cohort.size : 0;
+    });
+  });
+
   // KPIs
   document.getElementById('kpi-total-rev').textContent = fmtCurrency(totalRev);
   document.getElementById('kpi-aov').textContent = fmtCurrency(AOV);
@@ -226,6 +278,65 @@ async function main() {
   document.getElementById('bf-avg-disc').textContent = (bfAvgDiscOnly*100).toFixed(1)+'%';
   document.getElementById('nonbf-disc-rate').textContent = fmtPct(nonbfDiscRate);
   document.getElementById('nonbf-avg-disc').textContent = (nonbfAvgDiscOnly*100).toFixed(1)+'%';
+
+  // Fill churn KPIs and interactive window
+  const setChurn = (obj) => {
+    const el = document.getElementById('kpi-churn-selected');
+    if (el) {
+      el.textContent = fmtPct(obj.rate);
+      const note = document.getElementById('kpi-churn-selected-note');
+      if (note) note.textContent = `${obj.churned}/${obj.buyers} buyers inactive since ${obj.cutoff.toISOString().slice(0,10)}`;
+    }
+  };
+  const el60 = document.getElementById('kpi-churn-60'); if (el60) el60.textContent = fmtPct(churn60.rate);
+  const el90 = document.getElementById('kpi-churn-90'); if (el90) el90.textContent = fmtPct(churn90.rate);
+  const el120 = document.getElementById('kpi-churn-120'); if (el120) el120.textContent = fmtPct(churn120.rate);
+  const el180 = document.getElementById('kpi-churn-180'); if (el180) el180.textContent = fmtPct(churn180.rate);
+  const sel = document.getElementById('churn-window');
+  if (sel) {
+    const updateSelected = () => { const v = parseInt(sel.value, 10); setChurn(computeChurn(v)); };
+    sel.addEventListener('change', updateSelected);
+    updateSelected();
+  }
+
+  // Render cohort retention heatmap
+  const container = document.getElementById('cohort-heatmap');
+  if (container) {
+    container.innerHTML = '';
+    const colorFor = (p) => {
+      const t = Math.min(1, Math.max(0, p));
+      const start = [31,37,48]; // #1f2530
+      const end = [88,166,255]; // accent
+      const rgb = start.map((s,i)=> Math.round(s + (end[i]-s)*t));
+      return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+    };
+    // header row
+    const header = document.createElement('div'); header.className = 'heat-row';
+    const hlabel = document.createElement('div'); hlabel.className = 'heat-label'; hlabel.textContent = 'Cohort \\ Month';
+    const hcells = document.createElement('div'); hcells.className = 'heat-cells';
+    months.forEach(m => { const cell = document.createElement('div'); cell.className = 'heat-cell'; cell.style.background = '#1f2530'; cell.setAttribute('data-pct',''); cell.title = m; hcells.appendChild(cell); });
+    header.appendChild(hlabel); header.appendChild(hcells); container.appendChild(header);
+    // rows
+    retention.forEach((row,iIdx) => {
+      const rowEl = document.createElement('div'); rowEl.className = 'heat-row';
+      const label = document.createElement('div'); label.className = 'heat-label'; label.textContent = months[iIdx];
+      const cells = document.createElement('div'); cells.className = 'heat-cells';
+      row.forEach((val,jIdx) => {
+        const cell = document.createElement('div'); cell.className = 'heat-cell';
+        if (val === null) { cell.style.background = '#0e1117'; cell.setAttribute('data-pct',''); }
+        else { cell.style.background = colorFor(val); cell.setAttribute('data-pct', Math.round(val*100)); cell.title = `${months[iIdx]} → ${months[jIdx]}: ${fmtPct(val)}`; }
+        cells.appendChild(cell);
+      });
+      rowEl.appendChild(label); rowEl.appendChild(cells); container.appendChild(rowEl);
+    });
+    const legend = document.createElement('div'); legend.className = 'heat-legend';
+    const low = document.createElement('span'); low.className = 'legend-label'; low.textContent = 'Low';
+    const bar = document.createElement('div'); bar.className = 'legend-bar';
+    const high = document.createElement('span'); high.className = 'legend-label'; high.textContent = 'High';
+    legend.appendChild(low); legend.appendChild(bar); legend.appendChild(high);
+    container.appendChild(legend);
+    const note = document.getElementById('note-cohort'); if (note) note.textContent = 'Cells show per-month retention by cohort (share of cohort buying in each subsequent month).';
+  }
 }
 
 main().catch(err => {

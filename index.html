@@ -55,6 +55,30 @@
       <canvas id="chart-geo" height="170"></canvas>
     </div>
     <div class="panel">
+      <h2>Churn & Retention</h2>
+      <div class="grid tight">
+        <div class="card tiny">
+          <h3>Churn Window</h3>
+          <select id="churn-window">
+            <option value="60">60 days</option>
+            <option value="90" selected>90 days</option>
+            <option value="120">120 days</option>
+            <option value="180">180 days</option>
+          </select>
+          <div class="value" id="kpi-churn-selected">—</div>
+          <div class="note" id="kpi-churn-selected-note"></div>
+        </div>
+        <div class="card tiny"><h3>60‑day Churn</h3><div class="value" id="kpi-churn-60">—</div></div>
+        <div class="card tiny"><h3>90‑day Churn</h3><div class="value" id="kpi-churn-90">—</div></div>
+        <div class="card tiny"><h3>120‑day Churn</h3><div class="value" id="kpi-churn-120">—</div></div>
+        <div class="card tiny"><h3>180‑day Churn</h3><div class="value" id="kpi-churn-180">—</div></div>
+      </div>
+      <div class="heatmap" id="cohort-heatmap">
+        <!-- Cohort retention heatmap rendered here -->
+      </div>
+      <p class="note" id="note-cohort"></p>
+    </div>
+    <div class="panel">
       <h2>Promotions: BF/Cyber vs Non‑BF</h2>
       <div class="grid tight">
         <div class="card tiny"><h3>BF Rev Share</h3><div class="value" id="bf-rev-share">—</div></div>
